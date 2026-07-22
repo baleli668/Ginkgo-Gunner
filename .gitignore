@@ -1,0 +1,19 @@
+# Local credentials and editor metadata
+.git/git账号.txt
+.env
+.env.*
+!.env.example
+
+# Local release/staging files
+*.incoming
+*.backup-*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Keep only the active web bundle; other files are local historical builds
+/assets/*
+!/assets/index-4zy82oZc.js
+!/assets/index-Dasmb-ks.css
